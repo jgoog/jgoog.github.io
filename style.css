@@ -1,0 +1,46 @@
+
+body{
+    width: 80%;
+}
+
+
+
+ /* Styling for Navigation */
+.navbar {
+    overflow: hidden;
+    background-color: #003B6D;
+    position: relative; 
+    top: 0; /* Position the navbar at the top of the page */
+     width: 100%; /* Full width */
+     height: 5%;
+    list-style: none;  
+  }
+
+/* Links inside the navbar */
+.navbar a {
+    float: right;
+    display: block;
+    color: #BDBDBD;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px; 
+  }
+
+  .navbar li {
+	margin-right: 30%;	
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+footer {
+min-height: 100vh;
+  margin: 0 auto;
+  font: 12pt Comic Sans MS;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
